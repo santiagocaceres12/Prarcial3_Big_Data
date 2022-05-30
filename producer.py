@@ -1,6 +1,6 @@
 from kafka import KafkaProducer
 import time
-producer = KafkaProducer(bootstrap_servers=['localhost:9092'])
+producer = KafkaProducer(bootstrap_servers=['172.31.85.91:9092'])
 f = open("SPY_TICK_TRADE.csv",encoding='utf-8')
 i=0
 count=0
